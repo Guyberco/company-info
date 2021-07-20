@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./build",
+    "strict": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "inlineSourceMap": true
+  }
+}

@@ -1,0 +1,18 @@
+
+2 pages:
+     1. home - routes - '/'
+     2. more details company - '/company/:companyId'
+
+ 1. home - form with input - text
+    a. domnain verifcation.
+    b. submit - add to list:
+        b.1 post request  /company/:companyId - response company details
+        b.2 adding to list
+        b.3
+
+
+
+server:
+    post request  /company/:companyId
+        response company details + icon - save in db
+
