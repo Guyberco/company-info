@@ -5,7 +5,7 @@ import {Company} from "../common/models/company.model";
 class CompaniesService {
     serverURL =  `http://${ENV.DEV ? 'localhost:3000' : ''}`;
 
-    async fetchCompanies(method: HTTPMethods, body?: unknown, endpoint = ''){
+    async fetchCompanies(method: HTTPMethods, body?: unknown, endpoint = ''){ // body should have a generic Type :)
         const requestInit = {
             method,
             headers: {'Access-Control-Allow-Origin': '*'}
